@@ -1,0 +1,28 @@
+a button has an event of click
+<button (click)="dosomething()"></button>
+<button (eventName) ="functionName()"></button>
+
+
+app-voter
+@Output() voted = new EventEmitter<boolean>();
+voted is an event of app-voter
+<app-voter (voted)="anyfunction"></app-voter>
+
+
+
+purpose: let the parent know of an event..
+call a function in the parent when the child has emitted an event
+
+Event Flow
+1. button click
+2. vote function get called
+3. voted event get emitted  (child has emitted the event)
+// steps above , we have look at the child component
+
+// duty of the parent start - Listen to the childs events
+// parent html definition
+4. look for the definition of the voted event (voted) = "parenetFunction()"
+5. parent function onVoted get called.
+
+
+
