@@ -1,0 +1,43 @@
+json-server --watch assets/images.json
+
+Dependency Injection
+
+Singleton 
+there is going to be only one instance of this class
+
+var x = new ClassA()
+var y = new ClassA()
+// if classA is a single class then var y definition
+would lead to an error.
+
+
+firebase console.
+login with your google account
+https://console.firebase.google.com/u/0/
+Left navbar> Develop> Database > create database> Realtime database
+click on ...
+import json
+
+Goto to rules tab
+enable read and write by changing false to true
+
+
+Assignment: 
+Create an API for image Gallery
+https://kg-firebase-service.firebaseio.com/imageResults.json
+
+
+Create an API for shopping cart
+{
+	"products" : [
+	{
+		id: 'random',
+		cost: 200,
+		productName: 'xyz',
+		productDesc: '',
+		productManu: '',		
+	}
+]
+}
+
+
