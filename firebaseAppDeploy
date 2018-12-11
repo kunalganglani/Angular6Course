@@ -1,0 +1,30 @@
+npm start
+files gets hosted on the localmachine
+and you access this way: localhost:3000/home
+machinename:PORTNAME/routeName
+
+Hosting 
+when you deploy(copy) your files to remote client/system
+your files get copied to a remote system
+remoteSystemURL/routeName
+
+remoteSystemURL/ --> remoteSystemURL/default route
+
+www.facebook.com --> facebook.com/home
+
+DNS mapping
+
+
+npm install -g firebase-tools
+firebase login
+firebase init
+ng build --prod
+firebase deploy
+
+
+https://medium.com/@longboardcreator/deploying-angular-6-applications-to-firebase-hosting-b5dacde9c772
+
+
+Assignment: 
+To upload any components that you have developed so far as a firebase url.
+
